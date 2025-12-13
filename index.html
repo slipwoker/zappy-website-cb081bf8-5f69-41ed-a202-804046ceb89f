@@ -59,7 +59,7 @@
   opacity: 0.7;
 }</style>
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -336,7 +336,7 @@
 <div class="container nav-container">
 <div class="nav-brand">
 <a href="/" class="logo-link">
-<img src="/assets/logo.webp" alt="איילון אורון" class="logo" />
+<img src="/assets/logo.webp" alt="איילון אורון" class="logo">
 </a>
 </div>
 <button class="mobile-toggle" id="mobileToggle" aria-label="תפריט">
@@ -365,9 +365,17 @@
 </div>
 </nav>
 
-<section class="hero">
-<div class="hero-overlay"></div>
-<img data-placeholder="hero-1" data-context="Modern Israeli law office with professional attorney consulting with young driver client about traffic violations" src="/assets/hero-hero-1.webp" alt="משרד עורכי דין מקצועי המתמחה במשפט תעבורה" class="hero-bg">
+<section class="hero" style="; position: relative; overflow: hidden;">
+<div class="hero-video-background">
+  <div class="hero-video-overlay"></div>
+  <video class="hero-video" autoplay="" muted="" loop="" playsinline="">
+    <source src="/assets/hero-video-1765621606286.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <img class="hero-video-fallback" src="http://localhost:5001/api/website/preview-fullscreen/cb081bf8-5f69-41ed-a202-804046ceb89f/assets/hero-hero-1.webp?v=1765291201733" alt="Hero background" loading="lazy">
+</div>
+<div class="hero-overlay hero-original-overlay-hidden" style="; display: none !important;"></div>
+<img data-placeholder="hero-1" data-context="Modern Israeli law office with professional attorney consulting with young driver client about traffic violations" src="/assets/hero-hero-1.webp?v=1765291201733" alt="משרד עורכי דין מקצועי המתמחה במשפט תעבורה" class="hero-bg hero-original-image-hidden" style="; display: none !important;">
 <div class="container hero-content">
 <h1>משרד עורכי דין המתמחה במשפט תעבורה</h1>
 <h3>ייצוג משפטי מקצועי לנהגים צעירים ומקצועיים בעבירות תנועה</h3>
@@ -385,7 +393,7 @@
 <a href="/services" class="btn-secondary">גלה את השירותים שלנו</a>
 </div>
 <div class="intro-image">
-<img data-placeholder="service-1" data-context="Professional Israeli traffic attorney reviewing legal documents with confident expression in modern office" src="/assets/service-service-1.webp" alt="עורך דין תעבורה מקצועי בוחן מסמכים משפטיים">
+<img data-placeholder="service-1" data-context="Professional Israeli traffic attorney reviewing legal documents with confident expression in modern office" src="/assets/service-service-1.webp?v=1765291345270" alt="עורך דין תעבורה מקצועי בוחן מסמכים משפטיים">
 </div>
 </div>
 </div>
@@ -467,7 +475,7 @@
 <div class="container">
 <div class="why-split">
 <div class="why-image">
-<img data-placeholder="service-2" data-context="Confident Israeli attorney in formal attire standing in modern law office with law books and certificates on wall" src="/assets/service-service-2.webp" alt="עורך דין תעבורה מנוסה במשרד עורכי דין מקצועי">
+<div class="zappy-inserted-element" style="margin: 20px 0; text-align: center; display: flex; justify-content: center;"><img id="element-saved-1765293647836-0aozbwq4vpr" src="/assets/service-service-2.webp?v=1765293625403" alt="Image" style="width: auto; height: auto; border-radius: 8px; max-width: 100%;" data-element-type="image"></div>
 </div>
 <div class="why-content">
 <h2>היתרונות שלנו כמשרד עורכי דין</h2>
